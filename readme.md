@@ -90,8 +90,13 @@ PCBにハンダ付けします。<br>
 ### 6.ファームを焼く
 
 デフォルトキーマップはアローキーになっています。<br>
-このリポジトリに「p168colon_kasane_default.hex」として置いていますので、QMK Toolboxなどで書き込んでいただけます。<br>
+このリポジトリのhexディレクトリに「p168colon_kasane_default.hex」として置いていますので、QMK Toolboxなどで書き込んでいただけます。<br>
 リセットボタンは、トッププレートの隙間から細長いもの（爪楊枝など）を差し込んで押してください。
 
 カスタマイズしたい方は、下記にファームの雛形がありますのでご利用ください。
 https://github.com/hachi868/qmk_firmware/tree/feature-kasane/keyboards/p168colon/kasane
+
+defaultの他、下記2つのhexを格納しています。
+いずれも生成元のデータは上記QMKのfolkリポジトリにあります。
+* p168colon_kasane_wasd.hex => 「W」「A」「S」「D」を入力
+* p168colon_kasane_ctrlp.hex => 「ctrl+z」「ctrl+x」「ctrl+c」「ctrl+v」を入力
